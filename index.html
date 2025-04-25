@@ -3,26 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grow Your Local Business | Local Marketing Solutions</title>
     <meta name="description" content="Learn how to promote your business locally with effective growth strategies, local advertising, and essential tools for success.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-sans antialiased bg-gray-50">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-blue-600">OneCall</div>
+                <a href="https://gsultanshah.github.io/grow-your-local-business-2025-04-25-g0z9v" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">OneCall</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600">
+                <button class="mobile-menu-button md:hidden text-gray-600" aria-label="Toggle mobile menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">Benefits</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">About</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">Testimonials</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -31,70 +57,126 @@
     <section class="pt-32 pb-24 bg-gradient-to-br from-blue-50 to-white">
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Grow Your Local Business</h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-12">Discover proven strategies to promote your business locally and attract more customers</p>
-                <a href="https://www.onecallapp.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                    Get Started Now
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Transform Your Local Business Success</h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-12">Unlock powerful strategies, cutting-edge tools, and expert guidance to dramatically increase your local customer base and revenue</p>
+                <a href="https://www.onecallapp.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Start Growing Today
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="py-24 bg-white">
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Growth Solutions</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">About OneCall</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Founded in 2020 by a team of local business experts and digital marketing veterans, OneCall emerged from a simple observation: local businesses needed a better way to connect with their communities and grow sustainably. What started as a small consultancy has grown into a comprehensive platform serving thousands of businesses across the country.
+                </p>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Our mission is to empower local businesses with enterprise-level tools and strategies while maintaining the personal touch that makes them special. We believe in sustainable growth, authentic community connections, and measurable results. Our core values of transparency, innovation, and customer success drive everything we do.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Powerful Growth Solutions</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                         <i class="fas fa-chart-line text-2xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Growth Strategies</h3>
-                    <p class="text-gray-600">Implement proven strategies to expand your local market presence and increase revenue.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Advanced Growth Strategies</h3>
+                    <p class="text-gray-600">Leverage data-driven insights and proven methodologies to expand your market presence. Our strategies have helped businesses achieve an average of 40% growth in their first year.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                         <i class="fas fa-bullhorn text-2xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Local Advertising</h3>
-                    <p class="text-gray-600">Target your ideal customers with effective local advertising campaigns.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Precision Local Advertising</h3>
+                    <p class="text-gray-600">Target your ideal customers with AI-powered local advertising campaigns. Our platform optimizes your ad spend for maximum ROI, typically achieving 3x better results than traditional methods.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                         <i class="fas fa-tools text-2xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Essential Tools</h3>
-                    <p class="text-gray-600">Access the best tools and resources to manage and grow your local business.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Complete Business Toolkit</h3>
+                    <p class="text-gray-600">Access our comprehensive suite of business management tools, including CRM, analytics, and automation features. Streamline operations and save an average of 15 hours per week.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Benefits Section -->
-    <section id="benefits" class="py-24 bg-gray-50">
+    <section id="benefits" class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Key Benefits</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Transformative Benefits</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300">
                     <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-users text-3xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">New Customer Acquisition</h3>
-                    <p class="text-gray-600">Attract more qualified leads and convert them into loyal customers.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Accelerated Customer Acquisition</h3>
+                    <p class="text-gray-600">Generate 200% more qualified leads and convert them into loyal customers with our proven acquisition framework.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300">
                     <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-heart text-3xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Customer Loyalty</h3>
-                    <p class="text-gray-600">Build lasting relationships and increase customer retention rates.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Enhanced Customer Loyalty</h3>
+                    <p class="text-gray-600">Increase customer retention by 45% through personalized engagement strategies and loyalty programs.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300">
                     <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-star text-3xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Reviews & Reputation</h3>
-                    <p class="text-gray-600">Manage and improve your online reputation with positive reviews.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Reputation Excellence</h3>
+                    <p class="text-gray-600">Build a 5-star reputation with our review management system. Our clients see a 70% increase in positive reviews.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"OneCall transformed our local bakery's digital presence. We've seen a 150% increase in online orders and our customer base has doubled in just 6 months. Their tools are incredibly user-friendly and the support team is amazing."</p>
+                    <div class="font-semibold text-gray-900">Sarah Johnson</div>
+                    <div class="text-sm text-gray-500">Owner, Sweet Success Bakery</div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The ROI we've seen with OneCall is incredible. Their local advertising tools helped us target the perfect customers, and our revenue has grown by 85% year-over-year."</p>
+                    <div class="font-semibold text-gray-900">Michael Chen</div>
+                    <div class="text-sm text-gray-500">CEO, Tech Solutions Pro</div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Using OneCall's platform has saved us countless hours in managing our customer relationships. Our engagement rates are up 200% and we're seeing more repeat business than ever."</p>
+                    <div class="font-semibold text-gray-900">Lisa Martinez</div>
+                    <div class="text-sm text-gray-500">Director, Fitness First Gym</div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The analytics and insights provided by OneCall have been game-changing for our business decisions. We've optimized our operations and increased profit margins by 25%."</p>
+                    <div class="font-semibold text-gray-900">David Thompson</div>
+                    <div class="text-sm text-gray-500">Founder, Local Auto Care</div>
                 </div>
             </div>
         </div>
@@ -105,28 +187,49 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border border-gray-200 rounded-lg">
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
                     <button class="w-full px-6 py-4 text-left focus:outline-none">
                         <div class="flex items-center justify-between">
-                            <span class="text-lg font-semibold text-gray-900">How can I get started?</span>
+                            <span class="text-lg font-semibold text-gray-900">How quickly can I expect to see results?</span>
                             <i class="fas fa-plus text-blue-600"></i>
                         </div>
+                        <div class="mt-4 text-gray-600 hidden">Most clients see measurable improvements within the first 30 days, with significant growth typically occurring within 3-6 months of implementing our strategies.</div>
                     </button>
                 </div>
-                <div class="border border-gray-200 rounded-lg">
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
                     <button class="w-full px-6 py-4 text-left focus:outline-none">
                         <div class="flex items-center justify-between">
-                            <span class="text-lg font-semibold text-gray-900">What services do you offer?</span>
+                            <span class="text-lg font-semibold text-gray-900">What kind of support do you offer?</span>
                             <i class="fas fa-plus text-blue-600"></i>
                         </div>
+                        <div class="mt-4 text-gray-600 hidden">We provide 24/7 technical support, dedicated account managers, and regular strategy sessions to ensure your success.</div>
                     </button>
                 </div>
-                <div class="border border-gray-200 rounded-lg">
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
                     <button class="w-full px-6 py-4 text-left focus:outline-none">
                         <div class="flex items-center justify-between">
-                            <span class="text-lg font-semibold text-gray-900">How long does it take to see results?</span>
+                            <span class="text-lg font-semibold text-gray-900">Is there a minimum contract period?</span>
                             <i class="fas fa-plus text-blue-600"></i>
                         </div>
+                        <div class="mt-4 text-gray-600 hidden">No, we offer flexible month-to-month plans with no long-term commitments required.</div>
+                    </button>
+                </div>
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
+                    <button class="w-full px-6 py-4 text-left focus:outline-none">
+                        <div class="flex items-center justify-between">
+                            <span class="text-lg font-semibold text-gray-900">How do you measure success?</span>
+                            <i class="fas fa-plus text-blue-600"></i>
+                        </div>
+                        <div class="mt-4 text-gray-600 hidden">We track key metrics including customer acquisition costs, ROI, engagement rates, and revenue growth through our comprehensive analytics dashboard.</div>
+                    </button>
+                </div>
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
+                    <button class="w-full px-6 py-4 text-left focus:outline-none">
+                        <div class="flex items-center justify-between">
+                            <span class="text-lg font-semibold text-gray-900">Can I integrate with my existing tools?</span>
+                            <i class="fas fa-plus text-blue-600"></i>
+                        </div>
+                        <div class="mt-4 text-gray-600 hidden">Yes, our platform integrates seamlessly with most popular business tools and CRM systems.</div>
                     </button>
                 </div>
             </div>
@@ -134,13 +237,13 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600">
+    <section class="py-24 bg-blue-600" style="background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center;">
         <div class="container mx-auto px-6">
-            <div class="max-w-4xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready to Grow Your Business?</h2>
-                <p class="text-xl text-blue-100 mb-12">Join thousands of successful local businesses using our platform</p>
-                <a href="https://www.onecallapp.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                    Start Your Growth Journey
+            <div class="max-w-4xl mx-auto text-center bg-blue-600/90 p-12 rounded-2xl backdrop-blur-sm">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready to Transform Your Business?</h2>
+                <p class="text-xl text-blue-100 mb-12">Join over 10,000 successful local businesses already growing with OneCall</p>
+                <a href="https://www.onecallapp.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Begin Your Success Story
                 </a>
             </div>
         </div>
@@ -152,26 +255,35 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-2xl font-bold text-white mb-6">OneCall</h3>
-                    <p class="text-gray-400">Helping local businesses grow and thrive in their communities.</p>
+                    <p class="text-gray-400">Empowering local businesses to thrive in the digital age.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-6">Quick Links</h4>
                     <ul class="space-y-4">
                         <li><a href="#features" class="hover:text-white transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Testimonials</a></li>
                         <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-lg font-semibold text-white mb-6">Contact</h4>
-                    <p class="mb-4">Email: sales@onecallapp.com</p>
+                    <h4 class="text-lg font-semibold text-white mb-6">Legal</h4>
+                    <ul class="space-y-4">
+                        <li><a href="https://gsultanshah.github.io/grow-your-local-business-2025-04-25-g0z9v/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://gsultanshah.github.io/grow-your-local-business-2025-04-25-g0z9v/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://gsultanshah.github.io/grow-your-local-business-2025-04-25-g0z9v/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                    </ul>
                 </div>
                 <div>
-                    <h4 class="text-lg font-semibold text-white mb-6">Follow Us</h4>
+                    <h4 class="text-lg font-semibold text-white mb-6">Contact</h4>
+                    <p class="mb-4">Email: support@onecallapp.com</p>
+                    <p class="mb-6">Phone: (555) 123-4567</p>
                     <div class="flex space-x-4">
                         <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-facebook"></i></a>
                         <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-twitter"></i></a>
                         <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -180,5 +292,48 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion
+            const faqButtons = document.querySelectorAll('#faq button');
+            faqButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.querySelector('div:last-child');
+                    const icon = button.querySelector('i');
+                    content.classList.toggle('hidden');
+                    icon.classList.toggle('fa-plus');
+                    icon.classList.toggle('fa-minus');
+                });
+            });
+        });
+    </script>
+</body>
 </body>
 </html>
